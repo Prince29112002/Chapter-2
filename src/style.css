@@ -1,0 +1,90 @@
+body{
+    background-image: green;
+}
+
+.main{
+    display: flex;
+    margin: 60px;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 5px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container{
+    height: 400px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 30, 30),  rgb(0, 0, 0)) ;
+    margin: 5px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+    padding-top: 10px;
+    
+}
+
+
+label{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+}
+
+.btn{
+    margin-bottom: 5px;
+}
+span{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+ol{
+    list-style: none;
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: 370px;
+    word-wrap: break-word;
+    margin-top: 20px;
+    width: 420px;
+}
+li{
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: goldenrod;
+}
+
+.btn-info{
+    font-size: 17px;
+}
+
+span{
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width:425px) {
+    .main{
+        width: 445px;
+        flex-wrap: wrap;
+        display: flex;
+    flex-direction: column;
+
+    }
+
+    .container{
+    width: 370px;
+
+    }
+
+  ol{
+    height: 370px;
+    word-wrap: break-word;
+    margin-top: 20px;
+    width: 350px;
+}
+}
